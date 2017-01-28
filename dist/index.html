@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weekly Web Dev Challenge 1</title>
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="wrapper">
+
+    <img src="img/logo_top.png" alt="masteralb creative" class="logo-top">
+
+    <div class="row">
+      <div class="col">
+
+        <h1 class="form-header">Register Form</h1>
+
+        <div class="form-container">
+          <form action="#">
+            <label class="text-input-label"><span class="image-container"><img src="img/user.png" alt="user"></span><input type="text" placeholder="Username" class="text-input"></label>
+            <label class="text-input-label"><span class="image-container"><img src="img/padlock.png" alt="padlock"></span><input type="password" placeholder="Password" class="text-input"></label>
+            <label class="text-input-label"><span class="image-container"><img src="img/padlock.png" alt="padlock"></span><input type="password" placeholder="Confirm Password" class="text-input"></label>
+            <label class="text-input-label"><span class="image-container"><img src="img/envelope.png" alt="envelope"></span><input type="email" placeholder="Email" class="text-input"></label>
+            <label class="text-input-label">
+              <span class="image-container"><img src="img/location.png" alt="location"></span>
+              <select name="location">
+                <option value="">Your Location</option>
+                <option value="Poland">Poland</option>
+                <option value="USA">USA</option>
+                <option value="Germany">Germany</option>
+                <option value="Sweden">Sweden</option>
+              </select>
+            </label>
+            <div class="checkbox-container">
+              <div class="checkbox">
+                <input id="terms" type="checkbox" checked>
+                <label for="terms"></label>
+              </div>
+              <p>I have read and accept the terms of use.</p>
+            </div>
+            <input type="submit" value="Sign Up" class="btn large">
+          </form>
+        </div>
+
+        <h1 class="form-header">Send Mail</h1>
+
+        <div class="form-container">
+          <form action="#">
+            <label class="text-input-label"><span class="image-container"><img src="img/user.png" alt="user"></span><input type="text" placeholder="Your Name" class="text-input"></label>
+            <label class="text-input-label"><span class="image-container"><img src="img/envelope.png" alt="envelope"></span><input type="email" placeholder="Your Email" class="text-input"></label>
+            <textarea placeholder="Type your message..."></textarea>
+            <div class="checkbox-container">
+              <div class="checkbox">
+                <input id="send-copy" type="checkbox" checked>
+                <label for="send-copy"></label>
+              </div>
+              <p>Send a copy to my Email</p>
+            </div>
+            <input type="submit" value="Send Email" class="btn large">
+          </form>
+        </div>
+
+      </div>
+
+      <div class="col">
+
+        <h1 class="form-header">Sign In Form</h1>
+
+        <div class="form-container">
+          <form action="#">
+            <label class="text-input-label"><span class="image-container"><img src="img/user.png" alt="user"></span><input type="text" placeholder="Username" class="text-input"></label>
+            <label class="text-input-label"><span class="image-container"><img src="img/padlock.png" alt="padlock"></span><input type="password" placeholder="Password" class="text-input"></label>
+            <div class="sign-in-group">
+              <div class="checkbox-container">
+                <div class="checkbox">
+                  <input id="remember-me" type="checkbox" checked>
+                  <label for="remember-me"></label>
+                </div>
+                <p>Remember me</p>
+              </div>
+              <input type="submit" value="Sign in" class="btn small"></label>
+            </div>
+          </form>
+        </div>
+
+        <h1 class="form-header">Recover Form</h1>
+
+        <div class="form-container">
+          <form action="#">
+            <label class="text-input-label"><span class="image-container"><img src="img/envelope.png" alt="envelope"></span><input type="email" placeholder="Enter your Email" class="text-input"></label>
+            <label class="text-input-label"><span class="image-container"><img src="img/phone.png" alt="phone"></span><input type="text" placeholder="Enter your Phone Number" class="text-input"></label>
+            <div class="button-group">
+              <input type="submit" value="Send" class="btn small"></label>
+              <input type="submit" value="Done" class="btn small" disabled></label>
+            </div>
+          </form>
+        </div>
+
+        <h1 class="form-header">Subscribe Form</h1>
+
+        <div class="form-container">
+          <form action="#">
+            <label class="text-input-label"><span class="image-container"><img src="img/envelope.png" alt="envelope"></span><input type="email" placeholder="Enter your Email" class="text-input"></label>
+            <div class="button-group">
+              <input type="submit" value="Subscribe" class="btn small"></label>
+              <input type="submit" value="No, Thanks" class="btn small red"></label>
+            </div>
+          </form>
+        </div>
+
+        <img src="img/logo_btm.png" alt="www.masteralb.com" class="logo-btm">
+
+      </div>
+    </row>
+
+  </main>
+</body>
+</html>

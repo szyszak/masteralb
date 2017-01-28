@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Titillium Web";
+  background-image: url("img/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 100px; }
+
+.wrapper {
+  max-width: 1000px;
+  margin: auto; }
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.form-header {
+  font-size: 32px;
+  color: #ffffff;
+  text-shadow: 2px 1px 3px #000000;
+  margin: 40px 0; }
+
+.form-container {
+  width: 380px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-shadow: 0 0 0 20px rgba(0, 0, 0, 0.4); }
+  .form-container .text-input-label {
+    margin-bottom: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    border: 1px solid #c6c6c6;
+    border-radius: 5px;
+    font-size: 16px; }
+    .form-container .text-input-label:last-of-type {
+      margin-bottom: 0; }
+  .form-container .image-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 40px; }
+  .form-container .text-input {
+    width: 300px;
+    color: #afafaf;
+    border: none;
+    font-size: 16px;
+    background-color: transparent;
+    border-left: solid 1px #c6c6c6;
+    padding-left: 20px; }
+  .form-container select {
+    width: 300px;
+    color: #afafaf;
+    border: none;
+    margin-right: 6px;
+    font-size: 16px;
+    background-color: transparent;
+    padding-left: 20px;
+    border-left: solid 1px #c6c6c6; }
+  .form-container .checkbox-container {
+    margin-top: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .form-container .checkbox {
+    width: 28px;
+    height: 28px;
+    margin-right: 16px;
+    background-color: #c6c6c6;
+    border-radius: 3px;
+    position: relative; }
+    .form-container .checkbox input[type="checkbox"] {
+      visibility: hidden; }
+    .form-container .checkbox label {
+      width: 26px;
+      height: 26px;
+      border-radius: 3px;
+      position: absolute;
+      top: 1px;
+      left: 1px;
+      background-color: #f4f4f4; }
+    .form-container .checkbox label::before {
+      content: "";
+      height: 14px;
+      width: 14px;
+      border-radius: 2px;
+      background-color: #86c713;
+      position: absolute;
+      top: 6px;
+      left: 6px;
+      opacity: 0; }
+    .form-container .checkbox input[type="checkbox"]:checked + label::before {
+      opacity: 1; }
+  .form-container .sign-in-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .form-container .button-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+  .form-container .btn {
+    margin-top: 20px;
+    height: 40px;
+    background-color: #92cf2a;
+    border: 1px solid #3b9a00;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px #000000; }
+    .form-container .btn:disabled {
+      -webkit-filter: opacity(0.5);
+      filter: opacity(0.5);
+      cursor: not-allowed; }
+  .form-container .large {
+    width: 340px; }
+  .form-container .small {
+    width: 150px; }
+  .form-container .red {
+    border: #a2202a;
+    background-color: #f24152; }
+  .form-container textarea {
+    width: 340px;
+    max-width: 340px;
+    margin-top: 20px;
+    height: 240px;
+    border: 1px solid #c6c6c6;
+    border-radius: 5px;
+    background-color: transparent;
+    font-family: "Titillium Web";
+    color: #afafaf;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-top: 10px; }
+
+.logo-top {
+  margin: auto;
+  margin-bottom: 80px;
+  margin-top: 100px;
+  display: block;
+  opacity: 0.3; }
+
+.logo-btm {
+  margin-top: 100px;
+  opacity: 0.3; }
+
+@media screen and (max-width: 1100px) {
+  .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; } }
+
+@media screen and (max-width: 520px) {
+  .logo-top,
+  .logo-btm {
+    width: 80%;
+    margin-top: 60px;
+    margin-bottom: 0px; }
+  .form-container {
+    width: 280px;
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.4); }
+    .form-container .text-input-label {
+      width: 260px;
+      margin: auto;
+      margin-bottom: 20px; }
+    .form-container .text-input {
+      padding-left: 10px; }
+    .form-container select {
+      padding-left: 10px; }
+    .form-container textarea {
+      width: 260px; }
+    .form-container .checkbox-container {
+      width: 260px;
+      margin: auto;
+      margin-top: 20px;
+      font-size: 14px; }
+    .form-container .sign-in-group .btn {
+      width: 260px; }
+    .form-container .sign-in-group {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+      align-items: baseline; }
+    .form-container .large {
+      width: 260px; }
+    .form-container .small {
+      width: 120px; } }
