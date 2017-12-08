@@ -1,7 +1,7 @@
 {
   "name": "",
   "version": "1.1.0",
-  "description": "weekly web developer challeng psd no 1",
+  "description": "weekly web developer challenge psd no 1",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,7 +14,8 @@
     "gulp-autoprefixer": "^3.1.1",
     "gulp-imagemin": "^3.1.1",
     "gulp-pug": "^3.2.0",
-    "gulp-sass": "^2.3.2"
+    "gulp-sass": "^2.3.2",
+    "node-sass": "^4.7.2"
   },
   "repository": {
     "type": "git",
