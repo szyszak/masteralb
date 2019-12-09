@@ -1,2 +1,3 @@
-# weekly_psd_1
-live view: https://szyszak.github.io/weekly_psd_1/dist/
+# Masteralb PSD
+
+live view: https://krzysztofszyszko.pl/projects/masteralb
